@@ -1,6 +1,6 @@
-Personal collection of dotfiles , with chunks taken from the following sources:
+Personal collection of dotfiles.
 
-[YADR](https://github.com/skwp/dotfiles)
+---
 
-## TODO:
-	* Automated installation via rake or sh
+##### TODO:
+* Automated installation via rake or sh
