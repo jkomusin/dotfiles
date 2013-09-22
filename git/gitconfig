@@ -1,5 +1,7 @@
 # Thanks again to Yan Pritzker's https://github.com/skwp/dotfiles for much of this
 
+[user]
+  name = Josh Komusin
 [color]
   ui = true
 [color "branch"]
