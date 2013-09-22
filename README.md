@@ -4,15 +4,13 @@ Assumes the use of the following tools:
 * vim and/or gvim
 * terminator
 * git
+* Openbox
 
-To install, copy the contents of the:
-* home/ directory to your local $HOME dir.
+To install, execute `install`
 
 
 ---
 
 ##### TODO:
-* Automated installation via rake or sh
-* conky and Openbox config
 * Aliases
 
