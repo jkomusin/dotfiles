@@ -9,9 +9,8 @@ set nocompatible
 " This loads all the plugins in ~/.vim/bundle
 " Use tpope's pathogen plugin to manage all other plugins
 
-  runtime bundle/tpope-vim-pathogen/autoload/pathogen.vim
-  call pathogen#infect()
-  call pathogen#helptags()
+call pathogen#infect()
+call pathogen#helptags()
 
 " ================ General Config ====================
 
@@ -24,8 +23,16 @@ set gcr=a:blinkon0              "Disable cursor blink
 set visualbell                  "No sounds
 set autoread                    "Reload files changed outside vim
 
-"turn on syntax highlighting
+" turn on syntax highlighting
 syntax on
+
+" enable solarized (http://ethanschoonover.com/solarized)
+if has('gui_running')
+  set background=light
+else
+  set background=dark
+endif
+colorscheme solarized
 
 " ================ Search Settings  =================
 
