@@ -1,5 +1,5 @@
-# set your user tokens as enivornment variables, such as ~/.secrets
-# See the README for examples.
+# Thanks again to Yan Pritzker's https://github.com/skwp/dotfiles for much of this
+
 [color]
   ui = true
 [color "branch"]
@@ -26,7 +26,7 @@
 [core]
   autocrlf = false
   editor = vim
-  excludesfile = ~/.yadr/git/gitignore
+  excludesfile = ~/.git/gitignore
 [advice]
   statusHints = false
 [diff]
@@ -34,6 +34,4 @@
   # instead of a/b/c/d as prefixes for patches
   mnemonicprefix = true
 [rerere]
-  # Remember my merges
-  # http://gitfu.wordpress.com/2008/04/20/git-rerere-rereremember-what-you-did-last-time/
   enabled = true
