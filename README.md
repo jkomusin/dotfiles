@@ -6,7 +6,7 @@ Assumes the use of the following tools:
 * git
 * Openbox
 
-To install, execute `install`
+To install, execute `install`, and be sure to reference ~/.bash_aliases in your .bashrc file.
 
 
 ---
