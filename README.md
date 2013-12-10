@@ -13,4 +13,4 @@ To install, execute `install`, and be sure to reference ~/.bash_aliases in your 
 
 ##### TODO:
 * Aliases
-
+* Dynamically fetch and install Vim plugins
