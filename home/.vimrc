@@ -34,6 +34,9 @@ else
 endif
 colorscheme solarized
 
+" Set 80-column indicator
+let &colorcolumn=join(range(81,999),",")
+
 " ================ Search Settings  =================
 
 set incsearch        "Find the next match as we type the search
