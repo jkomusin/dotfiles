@@ -31,6 +31,14 @@ if has('gui_running')
   set background=light
 else
   set background=dark
+  if has("unix")
+    let s:uname = system("uname")
+    if s:uname == "Darwin\n"
+      let g:solarized_visibility = "high"
+      let g:solarized_contrast = "high"
+      let g:solarized_termcolors = 256
+    endif
+  endif
 endif
 colorscheme solarized
 
