@@ -8,9 +8,3 @@ Assumes the use of the following tools:
 
 To install, execute `install`, and be sure to reference ~/.bash_aliases in your .bashrc file.
 
-
----
-
-##### TODO:
-* Aliases
-* Dynamically fetch and install Vim plugins
