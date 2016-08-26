@@ -4,3 +4,5 @@ script_dir=$(dirname $0)
 
 rsync -r $script_dir/home/. $HOME
 
+git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+
