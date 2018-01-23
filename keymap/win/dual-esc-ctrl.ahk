@@ -1,18 +1,13 @@
-; Note: This implementation assumes an en-US QWERTY layout.
-
-
 SendMode Input
 #NoEnv
 #SingleInstance force
 
 
-options := {delay: 150, timeout: 300, doublePress: -1, swap_backtick_escape: false, mode: "ijkl"}
+options := {delay: 150, timeout: 300, doublePress: -1}
 
 
 #Include <dual/dual>
 dual := new Dual
-
-
 #Include <dual/defaults>
 
 
